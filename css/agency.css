@@ -749,3 +749,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #1456ff;
 }
+
+#navAhmad {
+  font-family: 'Nanum Gothic', sans-serif;
+}
