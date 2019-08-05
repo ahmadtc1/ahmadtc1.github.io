@@ -755,6 +755,7 @@ body {
 }
 
 .section-subheading-about-me {
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Quicksand', sans-serif;
+  padding-bottom: 75px;
 }
