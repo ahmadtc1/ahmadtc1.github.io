@@ -759,3 +759,8 @@ body {
   font-family: 'Quicksand', sans-serif;
   padding-bottom: 75px;
 }
+
+.key-words {
+  color:  #3399ff;
+  font-weight: 20px;
+}
