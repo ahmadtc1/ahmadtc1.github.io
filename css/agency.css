@@ -756,17 +756,28 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
 .section-subheading-about-me {
   font-size: 75px;
   font-family: 'Quicksand', sans-serif;
   padding-bottom: 75px;
   font-weight: 50px;
+  animation: 5s fadeIn
 }
 
 .section-subheading-study {
   font-size: 25px;
   font-family: 'Quicksand', sans-serif;
   padding-bottom: 75px;
+  animation: 2s fadeIn;
 }
 
 .key-words {
@@ -777,3 +788,4 @@ body {
 .connect {
   margin-bottom: 60px;
 }
+
