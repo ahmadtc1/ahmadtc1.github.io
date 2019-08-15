@@ -757,7 +757,14 @@ body {
 }
 
 .section-subheading-about-me {
-  font-size: 40px;
+  font-size: 75px;
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom: 75px;
+  font-weight: 50px;
+}
+
+.section-subheading-study {
+  font-size: 25px;
   font-family: 'Quicksand', sans-serif;
   padding-bottom: 75px;
 }
