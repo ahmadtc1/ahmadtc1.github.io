@@ -558,10 +558,12 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-color: #000000;
   background-position: center;
   background-repeat: no-repeat;
+  color: white;
+  padding-top:50px;
+  padding-bottom: 10px;
 }
 section#contact .section-heading {
   color: white;
@@ -621,6 +623,7 @@ footer span.copyright {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  color: gray;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -754,7 +757,7 @@ body {
 }
 
 .section-subheading-about-me {
-  font-size: 20px;
+  font-size: 40px;
   font-family: 'Quicksand', sans-serif;
   padding-bottom: 75px;
 }
@@ -762,4 +765,8 @@ body {
 .key-words {
   color:  #3399ff;
   font-weight: 20px;
+}
+
+.connect {
+  margin-bottom: 60px;
 }
