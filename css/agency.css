@@ -756,6 +756,11 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+.fadeIn {
+  animation-duration: 3s;
+  animation-name: fadeIn;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0%;
@@ -786,6 +791,6 @@ body {
 }
 
 .connect {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
