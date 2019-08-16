@@ -288,6 +288,7 @@ header .intro-text .intro-heading {
 }
 section {
 }
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
@@ -854,4 +855,8 @@ body {
 
 .copyright {
   margin-top: 500px;
+}
+
+section#about-me {
+  margin-bottom: 75px;
 }
