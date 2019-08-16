@@ -819,6 +819,7 @@ body {
 
 .arrow-btn {
   -webkit-animation: bounce 1s infinite;
+  animation: bounce 1s infinite;
 }
 
 @keyframes bounce {
@@ -849,4 +850,3 @@ body {
   margin-bottom: 100px;
   font-size: 35px;
 }
-
