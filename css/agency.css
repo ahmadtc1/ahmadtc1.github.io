@@ -819,24 +819,30 @@ body {
 }
 
 .arrow-btn {
-
+  -webkit-animation: bounce 1s infinite;
 }
 
 @keyframes bounce {
-  from {
-    top:0px;
+  0% {
+    transform: translateY(0);
   }
-  to {
-    top:50px
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
 @-webkit-keyframes bounce {
-  from {
-    margin-top: 100%;
+  0% {
+    transform: translateY(0);
   }
-  to {
-    margin-top:0%;
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
