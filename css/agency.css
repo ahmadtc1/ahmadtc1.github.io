@@ -227,6 +227,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
+  color: #000000;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -818,7 +819,7 @@ body {
 }
 
 .arrow-btn {
-  
+
 }
 
 @keyframes bounce {
