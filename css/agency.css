@@ -239,7 +239,7 @@ header {
   color: white;
 }
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -287,7 +287,7 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;  
 }
 section h2.section-heading {
   font-size: 40px;
@@ -844,5 +844,10 @@ body {
   100% {
     transform: translateY(0);
   }
+}
+
+.about-me-blurb {
+  margin-bottom: 100px;
+  font-size: 35px;
 }
 
