@@ -866,4 +866,14 @@ section#about-me {
 ul#skills {
   list-style-type: none;
   padding-left:0px;
+  display: block;
+}
+
+p.digiceipt-body {
+  text-align: left;
+}
+
+.github-button-text {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
