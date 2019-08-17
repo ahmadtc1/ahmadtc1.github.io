@@ -862,3 +862,7 @@ body {
 section#about-me {
   margin-bottom: 75px;
 }
+
+ul#skills {
+  list-style-type: none;
+}
