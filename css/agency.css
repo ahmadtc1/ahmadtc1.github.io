@@ -851,7 +851,7 @@ body {
 }
 
 .about-me-blurb {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   font-size: 35px;
 }
 
@@ -876,4 +876,13 @@ p.digiceipt-body {
 .github-button-text {
   padding-bottom: 10px;
   margin-bottom: 10px;
+}
+
+.tools-blurb {
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+.key-words2 {
+  color:red;
 }
