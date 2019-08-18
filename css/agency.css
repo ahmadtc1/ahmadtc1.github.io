@@ -892,6 +892,9 @@ ul.timeline li a .experience-hover {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
+ul.timeline li a .experience-hover i {
+  padding-top: 30px;
+}
 
 ul.timeline li a .experience-hover:hover,
 ul.timeline li a .experience-hover:active,
