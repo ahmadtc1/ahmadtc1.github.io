@@ -247,6 +247,28 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <button class = "btn btn-danger">
+                                    <h4>Python</h4>
+                                </button>
+                                <button class = "btn btn-danger">
+                                    <h4>Flask</h4>
+                                </button>
+                                <button class = "btn btn-danger">
+                                    <h4>Java</h4>
+                                </button>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/feed.me.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>feed.me</h4>
+                        <p class="text-muted">Python Server</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -336,25 +358,6 @@
                     <div class="portfolio-caption">
                         <h4>Connect 4 Game</h4>
                         <p class="text-muted">Java Programming</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <button class = "btn btn-danger">
-                                    <h4>Firebase</h4>
-                                </button>
-                                <button class = "btn btn-danger">
-                                    <h4>DialogFlow</h4>
-                                </button>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dialogflow.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>AI Chatbot</h4>
-                        <p class="text-muted">DialogFlow</p>
                     </div>
                 </div>
             </div>
@@ -762,20 +765,32 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>AI Chatbot</h2>
-                                <p class="item-intro text-muted">Using DialogFlow, created an AI to interact with the
-                                    user</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dialog.png" alt="">
-                                <p>In DialogFlow, I created multiple different scenarios by creating user input
-                                    scenarios and created responses to the scenarios. I linked multiple scenarios
-                                    together and further progressed them using Context elements in the program. Further,
-                                    I created different entities to be used dependant on key words used by the user, as
-                                    well as many different intents which represent different situations enacted by the
-                                    user. Smart integrated agent training allowed the AI to adjust to the phrases and
-                                    pick up speech behavior in order to be able to interpret phrases similar to the
-                                    programmed phrases and act accordingly.</p>
-                                <button type="button" class="btn btn-danger" data-dismiss="modal"><i
-                                        class="fa fa-times"></i> Close Project</button>
+                                <h2>feed.me</h2>
+                                <p class="item-intro text-muted">🍽 A solution for the millions of busy people worldwide struggling to incorporate cooking into their daily lives</p>
+                                <h4>IEEE Newhacks</h4>
+                                <p>feed.me was developed as a submission to The Univeristy of Toronto's IEEE Newhacks Hackathon. It placed 2nd in the sustainability category with its attempt to help students work towards eating healthy, self-cooked meals as compared to fast-food</p>
+                                <div class = "row">
+                                    <div class = "col-md-6">
+                                        <h4>Server Side Logic</h4>
+                                        <p class = "content-body">
+                                                I developed a web server through which the requests between 
+                                                the Android App and database were processed. The server was 
+                                                developed using Python's Flask framework, where I developed a 
+                                                REST Api, accessible at different endpoints for reading and 
+                                                writing data. My database of choice was MongoDB, as I love its 
+                                                flexibility and storage formats. I utilised POST requests to 
+                                                insert data into the database, and GET requests to retrieve data 
+                                                from the database.
+                                        </p>
+                                    </div>
+                                    <div class = "col-md-6">
+
+                                    </div>
+                                </div>
+                                <img class="img-responsive img-centered" src="img/portfolio/feed-me-app.png" alt="">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Close Project
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -807,7 +822,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h4>Purpose</h4>
-                                        <p class="digiceipt-body">DigiCeipt was created as a method for individuals to
+                                        <p class="content-body">DigiCeipt was created as a method for individuals to
                                             be able to store their receipts
                                             digitally, rather than having to cope with the hassle of storing physical
                                             receipts.
@@ -815,7 +830,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <h4>Technologies</h4>
-                                        <p class="digiceipt-body">A <strong>REST API</strong> was developed using an
+                                        <p class="content-body">A <strong>REST API</strong> was developed using an
                                             <strong>Express</strong> backend
                                             and <strong>Mongoose</strong>, implementing <strong>HTTP request
                                                 methods</strong>
