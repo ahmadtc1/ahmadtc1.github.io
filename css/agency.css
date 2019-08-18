@@ -883,6 +883,29 @@ p.digiceipt-body {
   font-size: 15px;
 }
 
-.key-words2 {
-  color:red;
+ul.timeline li a .experience-hover {
+  background: #1456ff;
+  background-color: #1456ff;
+  position: absolute;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
 }
+
+ul.timeline li a .experience-hover:hover,
+ul.timeline li a .experience-hover:active,
+ul.timeline li a .experience-hover:target {
+  opacity:0.90;
+}
+
+/*
+background: rgba(20, 86, 255, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  */
