@@ -1,12 +1,12 @@
 {
-  "name": "agency",
-  "title": "Agency",
+  "name": "Ahmad-Site",
+  "title": "Ahmad-Site",
   "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/agency",
+  "homepage": "https://ahmadtc1.github.io/",
   "author": "Start Bootstrap",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+    "url": "https://github.com/ahmadtc1/ahmadtc1.github.io/blob/master/LICENSEE"
   },
   "devDependencies": {
     "browser-sync": "^2.13.0",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+    "url": "https://github.com/ahmadtc1/ahmadtc1.github.io"
   },
   "dependencies": {
     "bootstrap": "^4.3.1"
