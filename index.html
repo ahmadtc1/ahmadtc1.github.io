@@ -561,15 +561,45 @@
                                     and programmed the robot to avoid objects which it encounters and choose the optimal
                                     path</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/autonomous.jpg" alt="">
-                                <p>As a project to complete in my free time I created an autonomous robot using multiple
-                                    sensors. The robot was programmed using an Arduino Board which received data through
-                                    the sensors and responded accordingly to control the motors. A sensor at the front
-                                    signified when an object was approaching within a certain range from in front, after
-                                    which the two sensors on the left and right side would intake a reading in order to
-                                    determine which side had the clearest path. The robot would then interpret this
-                                    information and take the optimal path in order to avoid obstacles, by controlling
-                                    the motors to turn in the desired direction.
+                                <h4>Overview</h4>
+                                <p>
+                                    As a project to complete in my free time I created an autonomous robot using multiple
+                                    <strong>ultrasonic sensors</strong> in combination with an <strong>Arduino Microcontroller</strong> and a robot vehicle chassis.
+                                    I was able to experiment with a variety of concepts such as <strong>Analog vs. Digital, Sensor Interfacing,
+                                    Motor Control</strong>, and many more. My <strong>troubleshooting</strong> skills were also heavily enhanced as there were a variety
+                                    of problems I was forced to overcome through perseverance when testing the robot for functionality.
                                 </p>
+                                <div class = "row">
+                                    <div class = "col-md-6">
+                                        <h4>
+                                            Sensors
+                                        </h4>
+                                        <p class = "content-body">
+                                            In order to provide the robot with a solid sense of awareness for its surroundings, I equipped it 
+                                            with 3 ultrasonic sensors. One sensor was placed at the front, whereas the other two were placed
+                                            facing right and left. This allowed the robot to have a sense of whether there were objects directly
+                                            ahead of it, as well as if there were any objects on its side.
+                                            The sensors simply returned a number representing how long it took for the ultrasonic wave to bounce
+                                            off the nearest object and return to the sensor. I then used this number along with a combination of 
+                                            the calculated speed of sound (according to the specified temperature) to calculate the distance to the
+                                            nearest object.
+                                        </p>
+                                    </div>
+                                    <div class = "col-md-6">
+                                        <h4>
+                                            Path Planning
+                                        </h4>
+                                        <p class = "content-body">
+                                            The path planning for this robot was a simple control flow algorithm to determine the robots'
+                                            actions dependant on its surroudings. The data received from each of the sensors was processed
+                                            and operated on to determine the distance from the front of the vehicle 
+                                            to the nearest object, and then used to
+                                            essentially stitch together a basic understanding of the robots' current surroundings.
+                                            Dependant on the proximity of the nearest object at the front, or the nearest object at the left
+                                            or right side, the robot would control its motors such that it moves away from any obstructions
+                                        </p>
+                                    </div>
+                                </div>
                                 <a href="https://github.com/ahmadtc1/Autonomous-Motion">
                                     <button type="button" class="btn btn-primary">
                                         <span class="github-button-text">Access on Github </span><i
@@ -787,14 +817,14 @@
                                     <div class = "col-md-6">
                                         <h4>Server Side Logic</h4>
                                         <p class = "content-body">
-                                                My role in this project was that of a <strong>backend developer</strong>.
-                                                I took on the tasks of developing the backend server and implementing
-                                                HTTP requestmethods for the front-end application to communicate with the server.
-                                                I developed a <strong>flask</strong> web server to allow communication
-                                                between the app and the database. Along with the server I developed a 
-                                                REST Api, implementing a variety of HTTP requests to fulfill actions for the application
-                                                . My database of choice was MongoDB, as I love its 
-                                                flexibility and storage formats.
+                                            My role in this project was that of a <strong>backend developer</strong>.
+                                            I took on the tasks of developing the backend server and implementing
+                                            HTTP requestmethods for the front-end application to communicate with the server.
+                                            I developed a <strong>flask</strong> web server to allow communication
+                                            between the app and the database. Along with the server I developed a 
+                                            REST Api, implementing a variety of HTTP requests to fulfill actions for the application
+                                            . My database of choice was MongoDB, as I love its 
+                                            flexibility and storage formats.
                                         </p>
                                     </div>
                                 </div>
