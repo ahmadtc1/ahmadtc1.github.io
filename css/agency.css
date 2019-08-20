@@ -880,6 +880,8 @@ ul#skills {
 
 p.content-body {
   text-align: left;
+  margin-top: 12px;
+  margin-bottom: 8px;
 }
 
 .github-button-text {
@@ -913,6 +915,12 @@ ul.timeline li a .experience-hover:hover,
 ul.timeline li a .experience-hover:active,
 ul.timeline li a .experience-hover:target {
   opacity:0.90;
+}
+
+p.img-caption {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 5px;
 }
 
 /*

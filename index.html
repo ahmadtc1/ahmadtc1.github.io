@@ -843,31 +843,96 @@
                                     using the MEAN stack.
                                 </p>
                                 <img class="img-responsive img-centered" src="img/portfolio/receiptView.png" alt="">
+                                <p class = "img-caption">A screenshot of the product currently in its medium fidelity phase (not fully functional)</p>
+                                <h4>Purpose</h4>
+                                    <p class="content-body">DigiCeipt was created as a method for individuals to
+                                        be able to store their receipts
+                                        digitally, rather than having to cope with the hassle of storing physical
+                                        receipts. It began when I came home from university
+                                        and saw my brothers storing some scattered physical receipts, 
+                                        which led me to decide that I wanted to create a digital storage solution to this problem.
+                                    </p>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h4>Purpose</h4>
-                                        <p class="content-body">DigiCeipt was created as a method for individuals to
-                                            be able to store their receipts
-                                            digitally, rather than having to cope with the hassle of storing physical
-                                            receipts.
+                                        <h4>Design</h4>
+                                        <h5>Problem Space</h5>
+                                        <p class="content-body">
+                                            I began by understanding the problem space, potential users, and drafting a 
+                                            <strong>Situation Impact Statement</strong> to place some perspective on the problem
+                                            I was tackling as well as the intended outcome. Then I moved forward to draft some 
+                                            <strong>personas</strong> using both primary information and secondary information.
+                                        </p>
+                                        <h5>Potential Solutions</h5>
+                                        <p class="content-body">
+                                            Once I had a solid understanding of the problem space, I proceeded to break the
+                                            problem into small <strong>functionalities</strong> that would be used to solve it. Once I'd identified
+                                            these functionalities, I used a <strong>Morphological Chart</strong> to brainstorm a variety of potential solutions.
+                                        </p>
+                                        <h5>Solution Evaluation</h5>
+                                        <p class="content-body">
+                                            Once my potential solutions were identified, I began to use a <strong>Quality Function Deployment (QFD)</strong>
+                                            chart to undergo an in depth analysis and comparison of each of the options. By the end of the QFD, 
+                                            I had a certain solution scoring better than the other that I decided to proceed forward with.
+                                        </p>
+                                        <h5>Prototyping</h5>
+                                        <p class="content-body">
+                                            With my solution now in mind, I started with a <strong>low-fidelity prototype</strong> of the solution.
+                                            I didn't begin with a wireframe, but rather with a diagram showing the architecture of 
+                                            the application and the connections between each of the components. Once I had the functionality
+                                            of the product planned out, I moved onto some UI low-level prototypes by just sketching out some interfaces.
+                                            I'm currently in the medium-fidelity stage as my product isn't quite ready for production, but it is 
+                                            approaching a level of full functionality.
+                                        </p>
+                                        <h5>
+                                            Iterate
+                                        </h5>
+                                        <p class = "content-body">
+                                            This phase will continue forever!
                                         </p>
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Technologies</h4>
-                                        <p class="content-body">A <strong>REST API</strong> was developed using an
-                                            <strong>Express</strong> backend
-                                            and <strong>Mongoose</strong>, implementing <strong>HTTP request
-                                                methods</strong>
-                                            to allow communication between the client-side and database.
-                                            <br>
-                                            The dynamic client-side was developed using the <strong>Angular
-                                                Framework</strong>
-                                            and <strong>TypeScript</strong>. User file upload was incorporated which
+                                        
+                                        <h4>Technical Details</h4>
+                                        <p class="content-body">
+                                             User file upload was incorporated which
                                             then
                                             allowed users to upload an image of their receipt, which was then converted
                                             to
                                             digital text through <strong>OCR</strong> and stored using the
                                             <strong>NoSQL Database, MongoDB</strong>
+                                        </p>
+                                        <h5>
+                                            Frontend
+                                        </h5>
+                                        <p class = "content-body">
+                                                The dynamic client-side was developed using the <strong>Angular
+                                                Framework</strong>
+                                                and <strong>TypeScript</strong>. HTTP requests were sent to the 
+                                                server using the <strong>HTTP module</strong> and request results
+                                                were subscribed to using <strong>Observables</strong>.
+                                                <strong>Routing</strong> was incorporated to allow for multiple
+                                                different views in a Single Page Application.
+                                                <strong>Angular Material</strong> was used to contribute to a smooth
+                                                and enjoyable user interface for users
+                                        </p>
+                                        <h5>
+                                            Backend
+                                        </h5>
+                                        <p class = "content-body">
+                                            A <strong>REST API</strong> was developed using an
+                                            <strong>Express</strong> backend
+                                            and <strong>Mongoose</strong>, implementing <strong>HTTP request
+                                            methods</strong>
+                                            to allow communication between the client-side and database. HTTP 
+                                            methods such as GET and PUT, and DELETE were defined at different endpoints in
+                                            order to allow users to upload, edit, and delete receipts.
+                                            API testing was completed using <strong>Postman</strong>, with the use of both
+                                            manual and automated tests to ensure the endpoints were working according to
+                                            expectations.
+                                            <strong>MongoDB</strong> was used as the database of choice, the main reason being 
+                                            its scalability and ability to adapt to different storage formats as the need
+                                            for/type of storage evolves.
+                                            <br>
                                         </p>
                                     </div>
                                 </div>
@@ -927,7 +992,10 @@
                                             different components such as zombies and accessories. <strong>Singleton
                                                 classes</strong> were
                                             also incorporated to represent certain objects of which only one instance
-                                            could exist, as well as <strong>static class</strong> implementation as well.</p>
+                                            could exist, as well as <strong>static class</strong> implementations as well.
+                                            <strong>Inheritance</strong> was also incorporated to allow child classes to 
+                                            acquire properties and methods from a base class.
+                                        </p>
                                     </div>
                                     <div class = "col-md-4">
                                         <h4>Pointer Implementation</h4>
@@ -935,7 +1003,9 @@
                                             Pointers were implemented for memory maintenance and <strong>dynamic memory
                                             allocation</strong>.
                                             Memory was allocated when necessary for use and deleted when no longer necessary,
-                                            suring optimal use of memory.
+                                            ensuring optimal use of memory. I was able to learn about good memory 
+                                            allocation practices through this project and was also educated on dangling pointers,
+                                            <strong>garbage collection</strong>, and programming to ensure that the memory heap is being used optimally.
                                         </p>
                                     </div>
                                     <div class = "col-md-4">
@@ -943,6 +1013,9 @@
                                         <p class = "content-body">The <strong>SFML Library</strong> was used for the game's development and its
                                             many classes as well as class methods were used in the development process for a
                                             variety of areas, such as <strong>graphics, audio</strong>, and many more areas.
+                                            This was an introduction for me to using libraries in C++ as I'd never used external C++ libraries before.
+                                            It allowed me to gain comfort using libraries and their features, which has made me more comfortable as I
+                                            continue to explore libraries such as STL and many more.
                                         </p>
                                     </div>
                                 </div>
@@ -999,7 +1072,10 @@
                                     suggest an ideal outfit so that they are prepared for the weather conditions. A
                                     clean and simple UI was designed to make it easy to use. Users can enter their
                                     location, and the app will then proceed to display details on the weather, as well
-                                    as a possible outfit to wear from top to bottom.
+                                    as a possible outfit to wear from top to bottom. A variety of display design principles
+                                    were used in designing the display such as <strong>Norman's' Seven Stages of Action</strong>.
+                                    These principles helped us design an interface to ensure easy interpretation for users,
+                                    as well as easy execution of the action they would like to perform.
                                 </p>
                                 <h4>Technical Details</h4>
                                 <p>
