@@ -52,6 +52,10 @@ h6 {
 .bg-light-gray {
   background-color: #eeeeee;
 }
+
+.bg-light-blue {
+  background-color: #cceeff;
+}
 .bg-darkest-gray {
   background-color: #222222;
 }
@@ -147,11 +151,11 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: #80d4ff;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #ffffff;
+  color: #000000;
 
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,cursive;
 }
@@ -181,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: #000000;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -219,7 +223,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #80d4ff;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -575,7 +579,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #000000;
+  background-color: #cceeff;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
@@ -812,12 +816,14 @@ body {
   font-family: 'Quicksand', sans-serif;
   padding-bottom: 75px;
   font-weight: 50px;
+  color: black;
 }
 
 .section-subheading-study {
   font-size: 25px;
   font-family: 'Quicksand', sans-serif;
   padding-bottom: 75px;
+  color: black;
 }
 
 
@@ -828,6 +834,7 @@ body {
 
 .connect {
   margin-bottom: 40px;
+  color:#000000;
 }
 
 .arrow-btn {
@@ -876,6 +883,10 @@ ul#skills {
   list-style-type: none;
   padding-left:0px;
   display: block;
+}
+
+.top {
+  background-color: #cceeff;
 }
 
 p.content-body {
